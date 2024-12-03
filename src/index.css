@@ -17,5 +17,29 @@ code {
 
 .b1{
   background-color: #FC7A1D;
+  text-align: center;
 }
 
+.t1{
+  font-family: fantasy;
+}
+.t2{
+  color: aliceblue;
+}
+
+
+.q1{
+  background-color: #E7E7E7;
+}
+
+.qq1{
+  position: relative;
+  left: 5%;
+}
+
+.we{
+  margin-left: 24px;
+}
+.ww{
+  font-size: 12px;
+}

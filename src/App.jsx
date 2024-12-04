@@ -127,59 +127,54 @@ function App() {
           Hot off the press
         </p>
       </div>
-      <div className="p-12 justify-between flex items-center px-20 rounded border-2-sky-400 divide-x-2 border">
-        <div className="">
-          <img className="flex justify-center m-10" src={q11} alt="" />
-          <div>
-            <p className="">
-              “First Light: Where great design</p>
-            <p>and the finest materials unite in</p>
-            <p>ultimate comfort”</p>
-            <div>
-              <div className="flex">
-                <button><p className="wd">READ ARTICLE</p></button>
-                <button><img className="m-10"  src={q12} alt="" /></button>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className="">
-          <img className="flex justify-center m-10" src={q10} alt="" />
-          <div>
-            <div>
-              <p>
-                “First light proves it is possible to
-              </p>
-              <p>combine great design with
-              the</p>
-              <p>finest materials available".</p>
-              <div>
-                <div className="flex">
-                <button><p className="wd">READ ARTICLE</p></button>
-                <button><img className="m-10" src={q12} alt="" /></button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className="">
-          <img className="flex justify-center m-10" src={q9} alt="" />
-          <div>
-            <p>
-              “Redefining excellence with  
-            </p>
-            <p>premium materials and visionary</p>
-            <p>robust
-            design.”</p>
-            <div>
-              <div className="flex ">
-              <button><p className="wd">READ ARTICLE</p></button>
-              <button><img className="m-10" src={q12} alt="" /></button>
-              </div>
-            </div>
-          </div>
+      <div className="p-12 flex justify-center">
+  <div className="flex space-x-10 border-2 border-sky-400 rounded-lg p-6">
+    <div className="flex flex-col items-center">
+      <img className="m-10" src={q11} alt="" />
+      <div className="text-center">
+        <p>“First Light: Where great design</p>
+        <p>and the finest materials unite in</p>
+        <p>ultimate comfort”</p>
+        <div className="flex justify-center space-x-4 mt-4">
+          <button className="wd">READ ARTICLE</button>
+          <button>
+            <img className="m-10" src={q12} alt="" />
+          </button>
         </div>
       </div>
+    </div>
+    
+    <div className="flex flex-col items-center">
+      <img className="m-10" src={q10} alt="" />
+      <div className="text-center">
+        <p>“First light proves it is possible to</p>
+        <p>combine great design with</p>
+        <p>the finest materials available".</p>
+        <div className="flex justify-center space-x-4 mt-4">
+          <button className="wd">READ ARTICLE</button>
+          <button>
+            <img className="m-10" src={q12} alt="" />
+          </button>
+        </div>
+      </div>
+    </div>
+    
+    <div className="flex flex-col items-center">
+      <img className="m-10" src={q9} alt="" />
+      <div className="text-center">
+        <p>“Redefining excellence with</p>
+        <p>premium materials and visionary</p>
+        <p>robust design.”</p>
+        <div className="flex justify-center space-x-4 mt-4">
+          <button className="wd">READ ARTICLE</button>
+          <button>
+            <img className="m-10" src={q12} alt="" />
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
     </>
   );
 }

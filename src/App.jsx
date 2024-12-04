@@ -6,10 +6,15 @@ import q1 from "./img/Social Proof.svg";
 import shirt from "./img/shirt.svg";
 import q2 from "./img/levo strelka.svg";
 import q3 from "./img/pravo strellka.svg";
-import q4 from "./img/photoman.svg"
-import q5 from "./img/Frame 3526.svg"
-import q6 from "./img/woman.svg"
-import q7 from "./img/man.svg"
+import q4 from "./img/photoman.svg";
+import q5 from "./img/Frame 3526.svg";
+import q6 from "./img/woman.svg";
+import q7 from "./img/man.svg";
+import q8 from "./img/Arrow.svg";
+import q9 from "./img/Fast company.svg";
+import q10 from "./img/Forbes.svg";
+import q11 from "./img/Bloomberg.svg";
+import q12 from "./img/Vector.svg";
 
 function App() {
   return (
@@ -29,12 +34,14 @@ function App() {
       </div>
 
       <div className="relative">
-        <img className="w-full" src={sub1} alt="Spring Season" />
+        <img className="w-full" src={sub1} alt="" />
         <div className="absolute bottom-36 left-64 text-3xl font-bold text-white">
           Spring Season
         </div>
         <div className="absolute bottom-40 right-36 flex items-center text-2xl text-white">
-          <button><span className="mr-2">View Collection</span></button>
+          <button>
+            <span className="mr-2">View Collection</span>
+          </button>
           <svg
             width="20"
             height="20"
@@ -59,9 +66,13 @@ function App() {
       <div className="b2 flex justify-center align-middle items-center">
         <div className="product flex-1  ">
           <div className="flex justify-center align-middle items-center ">
-            <button><img className="" src={q2} alt="" /></button>
-            <img src={shirt} alt="Basic Shirt" className="small-image flex-row "/>
-            <button><img src={q3} alt="" /></button>
+            <button>
+              <img className="" src={q2} alt="" />
+            </button>
+            <img src={shirt} alt="" className="small-image flex-row " />
+            <button>
+              <img src={q3} alt="" />
+            </button>
           </div>
           <div className="product_details">
             <h2 className="text-center font-bold">Basic Shirt</h2>
@@ -71,7 +82,7 @@ function App() {
           </div>
         </div>
         <div className="model relative flex-1">
-          <img src={modelshirt} alt="Shirt Model" className="w-full h-auto" />
+          <img src={modelshirt} alt="" className="w-full h-auto" />
           <button className="absolute bottom-4 left-20 transform -translate-x-1/2 bg-black text-white px-4 py-2 rounded">
             Shop Shirts
           </button>
@@ -89,17 +100,85 @@ function App() {
           <img className="qq1" src={q5} alt="" />
         </div>
       </div>
-      <div className="b4 p-16 flex justify-center we">
 
-      <div>
-        <button><span className=" ww font-bold absolute">WOMEN</span></button>
+      <div className="b4 p-10 flex justify-center align-middle">
+        <div className="flex relative">
+          <img className="" src={q6} alt="" />
+          <div className="absolute bottom-10 left-10 p-2 flex">
+            <button>WOMEN</button>
+            <button>
+              <img className="" src={q8} alt="" />
+            </button>
+          </div>
+        </div>
+        <div className="flex relative">
+          <img className="" src={q7} alt="" />
+          <div className="absolute bottom-10 left-10 p-2 flex">
+            <button>MEN</button>
+            <button>
+              <img className="" src={q8} alt="" />
+            </button>
+          </div>
+        </div>
       </div>
-      <div>
-        <img className="model flex-1" src={q6} alt="" />
+
+      <div className="b5 p-0 ">
+        <p className=" font-bold flex justify-center items-center text-3xl p-16 mb-0">
+          Hot off the press
+        </p>
       </div>
-      <div>
-        <img className="" src={q7} alt="" />
-      </div>
+      <div className="p-12 justify-between flex items-center px-20 rounded border-2-sky-400 divide-x-2 border">
+        <div className="">
+          <img className="flex justify-center m-10" src={q11} alt="" />
+          <div>
+            <p className="">
+              “First Light: Where great design</p>
+            <p>and the finest materials unite in</p>
+            <p>ultimate comfort”</p>
+            <div>
+              <div className="flex">
+                <button><p className="wd">READ ARTICLE</p></button>
+                <button><img className="m-10"  src={q12} alt="" /></button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="">
+          <img className="flex justify-center m-10" src={q10} alt="" />
+          <div>
+            <div>
+              <p>
+                “First light proves it is possible to
+              </p>
+              <p>combine great design with
+              the</p>
+              <p>finest materials available".</p>
+              <div>
+                <div className="flex">
+                <button><p className="wd">READ ARTICLE</p></button>
+                <button><img className="m-10" src={q12} alt="" /></button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="">
+          <img className="flex justify-center m-10" src={q9} alt="" />
+          <div>
+            <p>
+              “Redefining excellence with  
+            </p>
+            <p>premium materials and visionary</p>
+            <p>robust
+            design.”</p>
+            <div>
+              <div className="flex ">
+              <button><p className="wd">READ ARTICLE</p></button>
+              <button><img className="m-10" src={q12} alt="" /></button>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </>
   );

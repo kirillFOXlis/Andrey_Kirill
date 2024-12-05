@@ -15,10 +15,25 @@ import q9 from "./img/Fast company.svg";
 import q10 from "./img/Forbes.svg";
 import q11 from "./img/Bloomberg.svg";
 import q12 from "./img/Vector.svg";
+import d1 from "./img/DEV1.svg";
+import d2 from "./img/DEV2.svg";
+import d3 from "./img/DEV3.svg";
+import d4 from "./img/DEV4.svg";
+import s1 from "./img/LEVOSTRELKA.svg";
+import s2 from "./img/PRAVOSTRELKA..svg";
+import i1 from "./img/83d2704f33064265f60d2025217c864c.png";
+import i2 from "./img/f5b0efc74552e7555bcc1731a9a346d1.png";
+import i3 from "./img/5c7e0dbf8781038bcd905673f17bab8b.png";
+import l1 from "./img/Icon1.svg";
+import l2 from "./img/Icon2.svg";
+import l3 from "./img/Icon3.svg";
+import l4 from "./img/Icon4.svg";
+import c1 from "./img/cloth.svg"
 
 function App() {
   return (
     <>
+      <header className="qqq">
       <div className="b1">
         <div className="flex justify-between py-3 px-4">
           <img className="" src={dots} alt="" />
@@ -64,7 +79,7 @@ function App() {
       </div>
 
       <div className="b2 flex justify-center align-middle items-center">
-        <div className="product flex-1  ">
+        <div className="product flex-1 ">
           <div className="flex justify-center align-middle items-center ">
             <button>
               <img className="" src={q2} alt="" />
@@ -78,10 +93,10 @@ function App() {
             <h2 className="text-center font-bold">Basic Shirt</h2>
           </div>
           <div>
-            <p className="text-center font-bold ">37.5$</p>
+            <p className="text-center font-bold ">€49</p>
           </div>
         </div>
-        <div className="model relative flex-1">
+        <div className="model relative flex-1 ">
           <img src={modelshirt} alt="" className="w-full h-auto" />
           <button className="absolute bottom-4 left-20 transform -translate-x-1/2 bg-black text-white px-4 py-2 rounded">
             Shop Shirts
@@ -89,7 +104,7 @@ function App() {
         </div>
       </div>
 
-      <div className="b3 p-16 flex justify-center align-middle items-center">
+      <div className="b3 p-16 flex justify-center align-middle items-center ">
         <div className="relative">
           <img className="q1" src={q4} alt="" />
           <button className="absolute bottom-10 left-1/4 transform -translate-x-1/2 bg-black text-white px-4 py-2 rounded">
@@ -101,7 +116,7 @@ function App() {
         </div>
       </div>
 
-      <div className="b4 p-10 flex justify-center align-middle">
+      <div className="b4 p-10 flex justify-center align-middle ">
         <div className="flex relative">
           <img className="" src={q6} alt="" />
           <div className="absolute bottom-10 left-10 p-2 flex">
@@ -123,58 +138,189 @@ function App() {
       </div>
 
       <div className="b5 p-0 ">
-        <p className=" font-bold flex justify-center items-center text-3xl p-16 mb-0">
+        <p className=" font-bold flex justify-center items-center text-3xl p-12 mb-0">
           Hot off the press
         </p>
       </div>
-      <div className="p-12 flex justify-center">
-  <div className="flex space-x-10 border-2 border-sky-400 rounded-lg p-6">
-    <div className="flex flex-col items-center">
-      <img className="m-10" src={q11} alt="" />
-      <div className="text-center">
-        <p>“First Light: Where great design</p>
-        <p>and the finest materials unite in</p>
-        <p>ultimate comfort”</p>
-        <div className="flex justify-center space-x-4 mt-4">
-          <button className="wd">READ ARTICLE</button>
-          <button>
-            <img className="m-10" src={q12} alt="" />
-          </button>
+      <div className="p-12 flex justify-center ">
+        <div className="flex space-x-10 rounded-lg border-2 p-6">
+          <div className="flex flex-col items-center px-5">
+            <img className="m-10 ml-[-55px]" src={q11} alt="" />
+            <div className="">
+              <p>“First Light: Where great design</p>
+              <p>and the finest materials unite in</p>
+              <p>ultimate comfort”</p>
+              <div className="flex justify-center space-x-4 mt-4 ml-[-130px]">
+                <button className="wd font-bold">READ ARTICLE</button>
+                <button>
+                  <img className="my-10" src={q12} alt="" />
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div className="flex flex-col items-center border-l-2 border-r-2 px-10">
+            <img className="m-10 ml-[-125px]" src={q10} alt="" />
+            <div className="">
+              <p>“First light proves it is possible to</p>
+              <p>combine great design with</p>
+              <p>the finest materials available."</p>
+              <div className="flex justify-center space-x-4 mt-4 ml-[-130px]">
+                <button className="wd font-bold">READ ARTICLE</button>
+                <button>
+                  <img className="my-10" src={q12} alt="" />
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div className="flex flex-col items-center px-5">
+            <img className="m-10 ml-[-65px]" src={q9} alt="" />
+            <div className="">
+              <p>“Redefining excellence with</p>
+              <p>premium materials and visionary</p>
+              <p>robust design.”</p>
+              <div className="flex justify-center space-x-4 mt-4 ml-[-130px]">
+                <button className="wd font-bold">READ ARTICLE</button>
+                <button>
+                  <img className="my-10" src={q12} alt="" />
+                </button>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-    </div>
-    
-    <div className="flex flex-col items-center">
-      <img className="m-10" src={q10} alt="" />
-      <div className="text-center">
-        <p>“First light proves it is possible to</p>
-        <p>combine great design with</p>
-        <p>the finest materials available".</p>
-        <div className="flex justify-center space-x-4 mt-4">
-          <button className="wd">READ ARTICLE</button>
-          <button>
-            <img className="m-10" src={q12} alt="" />
-          </button>
+      <p className=" font-bold flex justify-center items-center text-3xl p-5 mb-0 ">
+        Women — Must Haves
+      </p>
+
+      <div className="p-10 flex justify-center align-middle items-center ">
+        <div>
+          <div className="flex justify-center items-center">
+            <img className="m-6 relative" src={d1} alt="" />
+            <img className="absolute left-48" src={s1} alt="" />
+          </div>
+          <div className="flex justify-center">
+            <p className="mr-20"> Basic Shirt</p>
+            <p className="ml-24">€49</p>
+          </div>
+        </div>
+        <div>
+          <div>
+            <img className="m-6" src={d2} alt="" />
+          </div>
+          <div className="flex justify-center">
+            <p className="mr-20"> Beige Jumper</p>
+            <p className="ml-20">€99</p>
+          </div>
+        </div>
+        <div>
+          <div>
+            <img className="m-6" src={d3} alt="" />
+          </div>
+          <div className="flex justify-center">
+            <p className="mr-16"> Signature Jacket</p>
+            <p className="ml-16">€249</p>
+          </div>
+        </div>
+        <div>
+          <div className="flex justify-center items-center">
+            <img className="m-6 relative" src={d4} alt="" />
+            <img className="flex absolute ml-40" src={s2} alt="" />
+          </div>
+          <div className="flex justify-center">
+            <p className="mr-36"> Navy Jumper</p>
+          </div>
         </div>
       </div>
-    </div>
-    
-    <div className="flex flex-col items-center">
-      <img className="m-10" src={q9} alt="" />
-      <div className="text-center">
-        <p>“Redefining excellence with</p>
-        <p>premium materials and visionary</p>
-        <p>robust design.”</p>
-        <div className="flex justify-center space-x-4 mt-4">
-          <button className="wd">READ ARTICLE</button>
-          <button>
-            <img className="m-10" src={q12} alt="" />
-          </button>
+
+      <p className=" font-bold flex justify-center items-center text-4xl p-10 mb-0">
+        We always have your back
+      </p>
+      <div className="flex justify-center ">
+        <div>
+          <img className="w-[596px] h-[600px] relative" src={i1} alt="" />
+          <div className="justify-center items-center">
+            <button className="absolute transform -translate-x-1/2 bg-black text-white ml-[300px] rounded-lg top-[5450px] px-[12px] py-[8px]">
+              <p className="font-bold">100% Premium Cotton </p>
+              <p>We use ethically sourced cotton only.</p>
+            </button>
+          </div>
+        </div>
+        <div className="flex flex-col ml-6 gap-6">
+          <div>
+            <img className="w-[596px] h-72 object-cover" src={i2} alt="" />
+            <button className="absolute transform -translate-x-1/2 bg-black text-white ml-[300px] rounded-lg top-[5130px] px-[12px] py-[8px]">
+              <p className="font-bold">Made in Portugal </p>
+              <p>With hand finished details</p>
+            </button>
+          </div>
+          <div className="">
+            <img className="w-[596px]  h-72 object-cover" src={i3} alt="" />
+            <button className="absolute transform -translate-x-1/2 bg-black text-white ml-[300px] rounded-lg top-[5450px] px-[12px] py-[8px]">
+              <p className="font-bold">Breathable material </p>
+              <p>Keeping you cool throughout the day</p>
+            </button>
+          </div>
         </div>
       </div>
-    </div>
-  </div>
+
+      <div className="">
+      <div className="flex justify-center mt-[100px] space-x-[150px] border-y-2 mx-[350px] p-10">
+        <div className="flex">
+          <img className="" src={l1} alt="" />
+          <p className="px-[10px]">Premium stain </p>
+          <p className="mt-[20px] ml-[-117px]">resistant fabrics</p>
+        </div>
+        <div className="flex">
+          <img src={l2} alt="" />
+          <p className="px-[10px]">Free Express</p>
+          <p className="mt-[20px] ml-[-109px]">Shipping</p>
+        </div>
+        <div className="flex">
+          <img src={l3} alt="" />
+          <p className="px-[10px]">Free returns</p>
+          <p className="mt-[20px] ml-[-102px]">within 30 days</p>
+        </div>
+        <div className="flex">
+          <img src={l4} alt="" />
+          <p className="px-[10px]">Customers rate </p>
+          <p className="mt-[20px] ml-[-124px]">us 4.8 / 5.0</p>
+        </div>
+      </div>
+      </div>
+
+        <div className="p-10 flex justify-between px-3 py-3 rounded-r-md items-center ml-[337px]">
+          <div className="">
+            <img src={c1} alt="" />
+          </div>
+          <div className="">
+          <p className="font-bold text-3xl mr-[570px] mt-[-10px]">Visit our popup shop</p>
+          <p className="mt-[30px]">Willemsparkweg 63 <br></br>1071 GS Amsterdam <br></br>The Netherlands</p>
+<p className="mt-[30px] font-bold"></p>
+<p className="mt-[30px] font-bold">Monday</p>
+<p className="mt-[30px] font-bold">Tuesday</p>
+<p className="mt-[30px] font-bold">Wednesday</p>
+<p className="mt-[30px] font-bold">Thursday</p>
+<p className="mt-[30px] font-bold">Friday</p>
+<p className="mt-[30px] font-bold">Saturday</p>
+<p className="mt-[30px] font-bold">Sunday</p>
+<div className="justify-center ">
+  <p className="mt-[-16px]">12.00-18.00</p>
+  <p className="mt-[-32px]">12.00-18.00</p>
+  <p className="mt-[-48px]">12.00-18.00</p>
+  <p className="mt-[-64px]">12.00-18.00</p>
+  <p className="mt-[-80px]">12.00-18.00</p>
+  <p className="mt-[-96px]">12.00-18.00</p>
+  <p className="mt-[-112px]">12.00-18.00</p>
+  <p className="mt-[-128px]">12.00-18.00</p>
 </div>
+          </div>
+
+
+        </div>
+      </header>
+      
     </>
   );
 }
